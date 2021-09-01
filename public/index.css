@@ -1,0 +1,134 @@
+.ListEntry{
+  padding:0.1em;
+  padding-left:1em;
+  border-bottom: 0.2em solid #444444;
+}
+.ShowTradeButton{
+  display:inline-block;
+  width:8em;
+  height:2em;
+}
+
+
+
+
+#TopDiv{
+  margin-bottom: 1em;
+}
+
+
+
+#InfoMeDiv{
+  vertical-align: top;
+  display:inline-block;
+  width:52%;
+  background-color: #DDDDDD;
+  border: 0.2em solid #555555;
+  border-radius: 0.4em;
+  padding:0.5em;
+}
+#InfoMeDiv * *{
+  margin:0.1em;
+}
+#UpdateInfos{
+  display:inline-block;
+  width:32%;
+  height:3em;
+}
+#ResetHistory{
+  display:inline-block;
+  width:30%;
+  height:3em;
+}
+#ToggleProgress{
+  display:inline-block;
+  width:30%;
+  height:3em;
+}
+#LiveChart{
+  display:block;
+  width:30%;
+  height:3em;
+  background-color: #FF6347;
+}
+
+
+
+
+#AIDiv{
+  vertical-align: top;
+  display:inline-block;
+  width:42%;
+  background-color: #DDDDDD;
+  border: 0.2em solid #555555;
+  border-radius: 0.4em;
+  padding:0.5em;
+}
+#tradeLong{
+  display:inline-block;
+  margin:0.4em;
+  width:30%;
+  height:3em;
+}
+#tradeShort{
+  display:inline-block;
+  margin:0.4em;
+  width:30%;
+  height:3em;
+}
+#endPosition{
+  display:inline-block;
+  margin:0.4em;
+  width:30%;
+  height:3em;
+}
+
+
+
+
+
+
+
+#BottomDiv{
+  margin-bottom:2em;
+}
+
+
+
+#TradesDiv{
+  vertical-align: top;
+  display:inline-block;
+  width:46%;
+  background-color: #DDDDDD;
+  border: 0.2em solid #555555;
+  border-radius: 0.4em;
+  padding:0.5em;
+}
+#TradesContainer{
+  height: 12em;
+  background-color: #EEEEEE;
+  border: 0.2em solid #555555;
+  overflow: auto;
+}
+
+
+
+#PlayersDiv{
+  vertical-align: top;
+  display:inline-block;
+  width:48%;
+  background-color: #DDDDDD;
+  border: 0.2em solid #555555;
+  border-radius: 0.4em;
+  padding:0.5em;
+}
+#PlayersContainer{
+  height: 12em;
+  background-color: #EEEEEE;
+  border: 0.2em solid #555555;
+  overflow: auto;
+}
+#PlayersDiv div button{
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}

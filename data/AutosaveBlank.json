@@ -1,0 +1,37 @@
+{
+  "T": 60,
+  "ProgressOn": false,
+  "PlayersActive": false,
+  "Errors": [],
+  "Stats": {
+    "Tstart": 0,
+    "Tonline": [],
+    "Restarted": -1,
+    "Sync": 0,
+    "LivePrice": 0,
+    "AdvanceHistory": 0
+  },
+  "Players": [],
+  "Me": {
+    "capital": 1000,
+    "invested": 0,
+    "initialMargin": 0,
+    "unrealizedProfit": 0,
+    "worth": 1000,
+    "position": "none",
+    "positionMarket": -1,
+    "trades": [],
+    "params": [
+      -1,
+      -1,
+      -1
+    ],
+    "lastPrice": 9000,
+    "closestSwingSide": ["long","long","long","long","long","long","long"],
+    "closestSwing": [false,false,false,false,false,false,false],
+    "swingTriggerSum": [0,0,0,0,0,0,0],
+    "unswingTriggerSum": [0,0,0,0,0,0,0],
+    "tradeTriggerSum": [0,0,0,0,0,0,0],
+    "liveResult": 0
+  }
+}

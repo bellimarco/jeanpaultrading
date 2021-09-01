@@ -1,0 +1,94 @@
+<html>
+  <link rel="stylesheet" type="text/css" href="/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="canvasjs.min.js"></script>
+
+  <body>
+
+    <div id="TopDiv">
+
+      <div id="InfoMeDiv">
+        <div style="display:inline-block;width:40%;vertical-align:top;">
+          <div style="display:inline-block">
+            <div><h5>Market:</h5></div>
+            <div><h5>Capital:</h5></div>
+            <div><h5>Margin:</h5></div>
+            <div><h5>Invested:</h5></div>
+            <div><h5>Profit:</h5></div>
+            <div><h5>Worth:</h5></div>
+            <div><h5>Position:</h5></div>
+          </div>
+          <div style="display:inline-block;">
+            <div><h5 id="Market">blank</h5></div>
+            <div><h5 id="Capital">0</h5></div>
+            <div><h5 id="Margin">0</h5></div>
+            <div><h5 id="Invested">0</h5></div>
+            <div><h5 id="Profit">0</h5></div>
+            <div><h5 id="Worth">0</h5></div>
+            <div><h5 id="Position">none</h5></div>
+          </div>
+        </div>
+        <div style="display:inline-block;width:57%;vertical-align:top;">
+          <div style="vertical-align:top">
+            <button id="UpdateInfos" style="vertical-align:top">Update infos</button>
+            <button id="ResetHistory" style="vertical-align:top">Reset History</button>
+            <button id="ToggleProgress" style="vertical-align:top">Toggle Progress</button>
+          </div>
+          <div>Change Market: <input id="ChangeMarket" type="text" placeholder="BTC,USDT,Tinterval"></div>
+          <div>Chart ResolutionK:<input id="ChartRes"type="text" placeholder="20"></div>
+          <div>Load Price Timeframe:<input id="LoadPrice"type="text" placeholder="start,end"></div>
+          <div>Load Avrg Timeframe:<input id="LoadAvrg"type="text" placeholder="start,end,w"></div>
+          <button id="LiveChart">Live Chart</button>
+        </div>
+
+      </div>
+
+      <div id="AIDiv">
+        <div>
+          AI parameters:
+          <pre id="AIParams1"></pre>
+          <pre id="AIParams2"></pre>
+          <pre id="AIParams3"></pre>
+        </div>
+        <div>
+          manual trade controls
+          <div>
+            <button id="tradeLong">LONG</button><button id="tradeShort">SHORT</button><button id="endPosition">END POS</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="BottomDiv">
+
+      <div id="TradesDiv">
+        <div>Trades History:</div>
+        <div id="TradesContainer">
+
+        </div>
+      </div>
+
+      <div id="PlayersDiv">
+        <div>
+          Players:
+          <button id="EmployPlayer">Employ</button>
+          <button id="AddPlayer">Append</button>
+          <button id="RemovePlayer">Remove</button>
+          <button id="TogglePlayersActive">Active</button>
+        </div>
+        <div id="PlayersContainer">
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <div id="chartContainer"></div>
+
+
+  </body>
+
+  <script src="index.js"></script>
+</html>
